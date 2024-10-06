@@ -3,7 +3,7 @@ let currFolder
 
 async function getSongs(folder) {
     currFolder = folder
-    let a = await fetch(`https://github.com/Sumit0134/Music-Bar/${folder}/`)
+    let a = await fetch(`/Music-Bar/${folder}/`)
     let response = await a.text()
 
     let div = document.createElement("div")
@@ -71,7 +71,7 @@ const playMusic = (track, pause = false) => {
 }
 
 async function displayAlbums() {
-    let a = await fetch(`https://github.com/Sumit0134/Music-Bar/songs/`)
+    let a = await fetch(`/Music-Bar/songs/`)
     let cardContainer = document.querySelector(".cardContainer")
     let response = await a.text()
     let div = document.createElement("div")
@@ -83,7 +83,7 @@ async function displayAlbums() {
         const e = array[index]
         if (e.href.includes("/songs")) {
             let folder = e.href.split("/").splice(-2)[0]
-            let a = await fetch(`https://github.com/Sumit0134/Music-Bar/songs/${folder}/info.json`)
+            let a = await fetch(`/Music-Bar/songs/${folder}/info.json`)
             let response = await a.json()
             console.log(response)
             cardContainer.innerHTML = cardContainer.innerHTML + `<div data-folder="${folder}" class="card">
