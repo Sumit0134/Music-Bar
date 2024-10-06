@@ -1,0 +1,8 @@
+[build]
+  functions = "functions"   # Points to your serverless functions folder
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
