@@ -89,7 +89,7 @@ body {
     justify-content: center;
 }
 
-.playnow span{
+.playnow span {
     font-size: 15px;
     width: 64px;
     padding: 12px;
@@ -122,7 +122,7 @@ body {
     background-color: rgb(34, 34, 34);
 }
 
-.rightHeader>*{
+.rightHeader>* {
     padding: 20px;
 }
 
@@ -165,11 +165,11 @@ body {
     background-color: #1DB954;
 }
 
-.musicBarPlaylists{
+.musicBarPlaylists {
     padding: 16px;
 }
 
-.musicBarPlaylists h1{
+.musicBarPlaylists h1 {
     padding: 16px;
 }
 
@@ -271,7 +271,7 @@ body {
     width: 100%;
 }
 
-.infobar div{
+.infobar div {
     word-break: break-all;
 }
 
@@ -294,7 +294,7 @@ body {
 .timevol {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;   
+    align-items: center;
 }
 
 .songtime {
@@ -328,7 +328,7 @@ body {
         position: fixed;
         top: 0;
     }
-    
+
     .left .close {
         display: block;
         position: absolute;
@@ -348,18 +348,18 @@ body {
 
     .cardContainer {
         margin: 0;
-        justify-content: center; 
+        justify-content: center;
         max-height: unset;
         overflow-y: unset;
         margin-bottom: 35vh;
     }
-    
+
     .card {
         width: 55vw;
     }
 
     .playbar {
-        width: calc(100vw - 75px); 
+        width: calc(100vw - 75px);
         right: 25px;
     }
 
@@ -388,22 +388,22 @@ body {
 }
 
 @media (max-width: 500px) {
-    .left{ 
+    .left {
         width: 100vw;
-    }  
+    }
 
-    .library{
+    .library {
         height: 85vh;
     }
-    
-    .rightHeader{
+
+    .rightHeader {
         padding: 7px;
     }
-    
+
     .rightHeader>* {
         padding: 2px;
     }
-    
+
     .buttons>* {
         margin: 0 6px;
     }

@@ -5,6 +5,7 @@ async function getSongs(folder) {
     currFolder = folder
     let a = await fetch(`/${folder}/`)
     let response = await a.text()
+    // console.log(response)
 
     let div = document.createElement("div")
     div.innerHTML = response
@@ -13,6 +14,7 @@ async function getSongs(folder) {
     songs = []
     for (let index = 0; index < as.length; index++) {
         const element = as[index];
+        // console.log(element)
         if (element.href.endsWith(".mp3")) {
             songs.push(element.href.split(`/${currFolder}/`)[1])
         }
