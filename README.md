@@ -6,10 +6,6 @@
 
 Music Bar is a web-based music player that allows users to explore their music library, play songs, and manage playlists. The application is designed for ease of use and provides a seamless music playback experience. Users can view albums, play songs, adjust volume, and navigate through tracks effortlessly. 🎧
 
-## Live Project Link 🌐
-
-Check out the live project at [🎧 Music Bar](https://musicbar.freewebhostmost.com/)
-
 ## Video Demonstration 🎥
 
 Watch the video demonstration of the project here: [Video Link](https://drive.google.com/file/d/1egmW7cL0sRHwotZAjByCUGQ7enCMfQ54/view?usp=sharing)
